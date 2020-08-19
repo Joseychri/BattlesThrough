@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box; 
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+}
+
+body{
+
+	height: 100%;
+    margin: 0;
+    padding: 0; /* Often browsers have a 5px margin by deafult*/
+	font-family: 'Montserrat', sans-serif;
+}
+.sidenav {
+  width: 190px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  overflow-x: hidden;
+  padding: 8px 0;
+
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  color: #8c0e0f;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #083248;
+}
+
+section{
+	color 
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.padded{
+	padding: 20px; /* I add this to cells to add a little padding*/
+}
